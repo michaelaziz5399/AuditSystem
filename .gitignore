@@ -1,0 +1,35 @@
+## =====================================
+## 1. Back-End (.NET / Web API Settings)
+## =====================================
+bin/
+obj/
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Ignore sensitive configuration files in Web API
+**/appsettings.json
+**/appsettings.*.json
+
+## =====================================
+## 2. Front-End (Angular Settings)
+## =====================================
+# Heavy Angular dependencies
+**/node_modules/
+**/.angular/
+**/dist/
+**/tmp/
+
+# Log & Coverage files
+**/npm-debug.log*
+**/yarn-debug.log*
+**/coverage/
+
+## =====================================
+## 3. Environment & OS Files
+## =====================================
+Thumbs.db
+Desktop.ini
+[Dd]esktop.ini
+.DS_Store
